@@ -1,0 +1,39 @@
+.operand {
+    background-color: #363637;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.operator {
+    background-color: #363637;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.col-timer {
+    background-color: #363637;
+}
+
+.col-input-field {
+    background-color: #363637;
+}
+.form-control {
+    background-color: #363637;
+    border-radius: 30px;
+}
+
+.col-stats {
+    background-color: #363637;
+}
+
+.col-back {
+    background-color: #363637;
+    text-align: center;
+}
+
+#timer {
+    background-color: #363637;
+    text-align: center;
+}

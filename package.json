@@ -1,0 +1,11 @@
+{
+  "name": "mathtrainer",
+  "version": "1.0.0",
+  "description": "Website to train mental arithmetics",
+  "main": "landingpage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timo Neske",
+  "license": "ISC"
+}

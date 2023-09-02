@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/body-landing.css">
+    <link rel="stylesheet" href="styles/game-card.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <title>MATHTRAINER</title>
+    
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col header">
+                   <p id="header-title">MATHTRAINER</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col game-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-timer">
+                            <p id="timer">120s</p>
+                        </div>
+                    </div>
+
+                   <div class="row">
+                    <div class="col operand">
+                        <p id="operand-one"></p>
+                    </div>
+                    <div class="col operator">
+                        <p id="operator"></p>
+                    </div>
+                    <div class="col operand">
+                        <p id="operand-two"></p>
+                    </div>
+                   </div>
+
+                   <div class="row">
+                        <div class="col col-input-field">
+                            <input class="form-control form-control-lg" type="text" id="input-field">
+                        </div>
+                   </div>
+
+                    <div class="row">
+                      <div class="col col-stats">
+                        <p id="stats"></p>
+                      </div>
+                      <div class="col col-stats">
+                        <p id="highscore"></p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col col-back">
+                        <button type="button" class="btn btn-outline-light" id="back-btn">Back</button>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col footer"><p id="footer-tag">Made with <span id="heart">♥</span> by Timo</p></div>
+            </div>
+        </div>
+    </footer>
+    <audio id="correct-audio" controls>
+        <source src="sfx/correct-sound.wav" type="audio/wav">
+      </audio>
+
+      <audio id="wrong-audio" controls>
+        <source src="sfx/wrong-sound.wav" type="audio/wav">
+      </audio>
+      
+    <script src="js/game.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.header {
+    background-color: #363637;
+    height: 60px;
+    color: aquamarine;
+}
+
+#header-title {
+    font-weight: 650;
+    margin-left: 150px;
+}

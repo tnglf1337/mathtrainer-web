@@ -1,0 +1,15 @@
+.footer {
+    background-color: #363637;
+    height: 60px;
+    color: aquamarine;
+    margin-top: 35px;
+}
+
+#footer-tag {
+    text-align: center;
+    color: aquamarine;
+}
+
+#heart {
+    color:  red;
+}
